@@ -10,7 +10,7 @@ DEPLOY_LOG="$PROJECT_ROOT/deploy.log"
 TIME_NOW=$(date +%c)
 
 # build 파일 복사
-echo "$TIME_NOW > $JAR_FILE 파일 복사" >> $DEPLOY_LOG
+echo "$TIME_NOW > $JAR_FILE 파일 1 복사" >> $DEPLOY_LOG
 cp $PROJECT_ROOT/build/libs/*.jar $JAR_FILE
 
 # jar 파일 실행
